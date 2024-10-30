@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row{
+  display:flex;
+}
+.col{
+background-color: darkcyan;
+flex:1;
+margin: 20px;
+padding: 10px;
+display:inline-block;
+
+}
+.col-2{
+  flex: 2;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+  background-color: darkcyan;
+}
+.col-3{
+  flex: 3;
+  background-color: darkcyan;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+

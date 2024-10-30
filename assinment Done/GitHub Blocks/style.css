@@ -1,0 +1,14 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+#header h1{
+background-color: black;
+
+}
+#project{
+background-color: blueviolet;
+}
+#supparted{
+background-color: aqua;
+}

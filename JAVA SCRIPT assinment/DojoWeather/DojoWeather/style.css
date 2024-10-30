@@ -1,0 +1,148 @@
+/*
+Name:Ali Yahya.
+Email:zadanz.112233@gmail.com
+Description: Creat a webpage about the Weather Forecast.
+*/
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 20px;
+  background-color: #9FC5F8;
+  width: 100%;
+  height: 20%;
+  justify-content: space-between;
+}
+
+.nav-bar h1 {
+  font-weight: 700;
+  color: white;
+  margin: 8px 0px 8px 0px;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.list-of-wheather-report {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  color: white;
+  gap: 60px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 130px 0 0;
+}
+
+.change-temprature {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 20px;
+}
+.change-temprature h1 {
+  margin: 0 0;
+  padding: 0 25px;
+}
+.page-separator {
+  background-color: black;
+  height: 2.5px;
+  width: 88%;
+  margin-bottom: 5px;
+}
+.small-contianer {
+  display: inline-flex;
+  gap: 10px;
+  margin: 0 20px 0 0;
+  align-items: center;
+}
+
+.contianer-weather {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  align-items: center;
+  width: 89%;
+  height: 100%;
+}
+
+/* .title-day {
+  align-items: center;
+  
+} */
+
+.info_tempreture_day {
+  width: 95%;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  margin: 10px;
+  justify-content: space-around;
+  background-color: #EEEEEE;
+  align-items: center;
+}
+
+.info_tempreture_day img {
+  width: 220px;
+  border-radius: 50%;
+}
+
+.the-rate-of-temprature {
+  gap: 50px;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+#The-highest-temperature {
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+  /* align-items: start; */
+  /* gap: 50px; */
+}
+
+#the-lowest-temperature {
+  font-weight: bold;
+  color: blue;
+  font-size: 20px;
+  /* align-items: end; */
+}
+
+.cookies-position-fixed {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  width: 95%;
+  height: 20%;
+  left: 75x;
+  right: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  background-color: #EEEEEE;
+}
+
+.cookies-position-fixed img {
+  width: 160px;
+  height: 160px;
+}
+
+.cookies-position-fixed button {
+  width: 90px;
+  height: 40px;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.5s;
+  overflow: hidden;
+  backdrop-filter: blur(15px);
+  cursor: pointer;
+  background-color: blue;
+  box-shadow: 3px 3px 3px rgb(93, 189, 237);
+}

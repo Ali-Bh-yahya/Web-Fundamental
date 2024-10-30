@@ -1,0 +1,26 @@
+.nav{
+  border: solid 5px black;
+  display: flex;
+  background-color: black;
+  align-items: center;
+}
+.nav-title{
+  flex: 1;
+  color: white;
+
+}
+.nav-links{
+  flex:1;
+  display: flex;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.btn{
+  background-color: aqua;
+  color: white;
+  box-shadow:3px 2px aqua;
+  
+}
